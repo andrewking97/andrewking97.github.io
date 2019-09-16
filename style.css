@@ -1,0 +1,11 @@
+body {
+	background-color: rgb(245,255,149);
+}
+
+#nav-table {
+	width: 800px;
+}
+
+.par {
+	max-width: 800px;
+}
