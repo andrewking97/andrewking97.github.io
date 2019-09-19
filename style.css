@@ -2,10 +2,26 @@ body {
 	background-color: rgb(245,255,149);
 }
 
+#banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #nav-table {
 	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .par {
 	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.heading {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
