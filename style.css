@@ -25,3 +25,18 @@ body {
 	margin-right: auto;
 	text-align: center;
 }
+
+#racingbit {
+	display: block;
+	text-align: center;
+}
+
+#dancingbit {
+	display: block;
+	text-align: center;
+}
+
+#bitmoji {
+	display: block;
+	text-align: center;
+}
