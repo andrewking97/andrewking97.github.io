@@ -2,6 +2,35 @@ body {
 	background-color: rgb(245,255,149);
 }
 
+p {
+	max-width: 800px;
+	font-size: 1.3em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.3em;
+}
+
+h2 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: red;
+}
+
+.container {
+	max-width: 800px;
+	width: 80%;
+	margin: auto;
+}
+
 #banner {
 	display: block;
 	margin-left: auto;
@@ -14,29 +43,41 @@ body {
 	margin-right: auto;
 }
 
-.par {
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.heading {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
-
 #racingbit {
-	display: block;
 	text-align: center;
+	margin: auto;
 }
 
 #dancingbit {
-	display: block;
 	text-align: center;
+	margin: auto;
 }
 
 #bitmoji {
 	display: block;
 	text-align: center;
+}
+
+#resizingbit {
+	text-align: center;
+}
+
+#resize_screenshot {
+	width: 400px;
+}
+
+#racing_screenshot {
+	width: 400px;
+}
+
+#racingbit_2 {
+	text-align: center;
+}
+
+#dancingbit_2 {
+	text-align: center;
+}
+
+#racing_pic {
+	width: 400px;
 }
