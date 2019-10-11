@@ -1,27 +1,39 @@
+/* Import Corben and Nobile fonts */
+@import url('https://fonts.googleapis.com/css?family=Corben:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nobile&display=swap');
+
 .container {
 	max-width: 800px;
 	width: 80%;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 body {
 	background-color: rgb(245,255,149);
-	font-family: Arial, sans-serif;
+	/*font-family: Arial, sans-serif;*/
+	margin-top: 0;
 }
 
 p {
 	max-width: 800px;
-	font-size: 1.3em;
-	line-height: 1.4em;
+	/*font-size: 1.3em;*/
+	font-size: 18px;
+	/*line-height: 1.4em;*/
+	line-height: 1.6em;
+	font-family: Nobile, sans-serif;
 }
 
 h1 {
 	text-align: center;
 	font-size: 2.3em;
+	font-family: Corben, Times, serif;
 }
 
 h2 {
 	text-align: center;
+	font-family: Corben, Times, serif;
+	font-weight: normal;
 }
 
 a {
@@ -33,16 +45,25 @@ a:hover {
 	color: red;
 }
 
+table a:hover {
+	border: 3px solid rgb(157, 172, 212);
+	/*border: 3px solid rgba(155, 0, 0, 0.5);*/
+	padding-top: 36px;
+	padding-right: 0px;
+}
+
 #banner {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	box-shadow: 10px 8px 3px 1px rgba(81,81,81,0.4);
 }
 
 #nav-table {
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 10px;
 }
 
 .js-container {
@@ -61,5 +82,43 @@ a:hover {
 
 .js-thumbnail {
 	width: 300px;
-
 }
+
+/*#racingbit {
+	text-align: center;
+	margin: auto;
+}
+
+#dancingbit {
+	text-align: center;
+	margin: auto;
+}
+
+#bitmoji {
+	display: block;
+	text-align: center;
+}
+
+#resizingbit {
+	text-align: center;
+}*/
+
+/*#resize_screenshot {
+	width: 400px;
+}
+
+#racing_screenshot {
+	width: 400px;
+}*/
+
+/*#racingbit_2 {
+	text-align: center;
+}
+
+#dancingbit_2 {
+	text-align: center;
+}*/
+
+/*#racing_pic {
+	width: 400px;
+}*/
