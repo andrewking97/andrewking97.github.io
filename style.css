@@ -45,11 +45,17 @@ a:hover {
 	color: red;
 }
 
+table a {
+	border: 3px solid rgb(245,255,149);
+	padding-top: 36px;
+	padding-right: 0;
+}
+
 table a:hover {
 	border: 3px solid rgb(157, 172, 212);
 	/*border: 3px solid rgba(155, 0, 0, 0.5);*/
-	padding-top: 36px;
-	padding-right: 0px;
+	/*padding-top: 36px;
+	padding-right: 0px;*/
 }
 
 #banner {
@@ -83,42 +89,3 @@ table a:hover {
 .js-thumbnail {
 	width: 300px;
 }
-
-/*#racingbit {
-	text-align: center;
-	margin: auto;
-}
-
-#dancingbit {
-	text-align: center;
-	margin: auto;
-}
-
-#bitmoji {
-	display: block;
-	text-align: center;
-}
-
-#resizingbit {
-	text-align: center;
-}*/
-
-/*#resize_screenshot {
-	width: 400px;
-}
-
-#racing_screenshot {
-	width: 400px;
-}*/
-
-/*#racingbit_2 {
-	text-align: center;
-}
-
-#dancingbit_2 {
-	text-align: center;
-}*/
-
-/*#racing_pic {
-	width: 400px;
-}*/
